@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Day5APi异常/Day5APi异常.iml" filepath="$PROJECT_DIR$/Day5APi异常/Day5APi异常.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day6ArrayList01/Day6ArrayList01.iml" filepath="$PROJECT_DIR$/Day6ArrayList01/Day6ArrayList01.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPDay04Object/OOPDay04Object.iml" filepath="$PROJECT_DIR$/OOPDay04Object/OOPDay04Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPDay1/OOPDay1.iml" filepath="$PROJECT_DIR$/OOPDay1/OOPDay1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPDay2API/OOPDay2API.iml" filepath="$PROJECT_DIR$/OOPDay2API/OOPDay2API.iml" />
