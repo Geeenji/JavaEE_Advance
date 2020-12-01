@@ -32,7 +32,7 @@ public class Demo {
         ArrayList<String> p3=new ArrayList<String>();
         ArrayList<String> bottom=new ArrayList<String>();
         for (int i = 0; i < poker.size(); i++) {
-            if (i>poker.size()-3){
+            if (i>poker.size()-4){
                 bottom.add(poker.get(i));
             }
             else if(i%3==0){
@@ -43,5 +43,17 @@ public class Demo {
                 p3.add(poker.get(i));
             }
         }
+        show(p1);
+        show(p2);
+        show(p3);
+    }
+    public static void show(ArrayList<String> p){
+        for (int i = 0; i < p.size(); i++) {
+            System.out.print(p.get(i));
+            if (i<p.size()-1){
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
     }
 }
