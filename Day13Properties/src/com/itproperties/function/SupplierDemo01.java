@@ -13,7 +13,9 @@ public class SupplierDemo01 {
             return max;
         });
     }
+    //FunctionInterface Supplier 的功能：获取一个泛型参数指定累心的对象数据
     public static int getArrayMax(Supplier<Integer> supplier){
+        int max=supplier.get();
         return supplier.get();
     }
 
