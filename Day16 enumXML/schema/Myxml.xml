@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  官方约束
+  从xsd文档中复制一段内容，这个文档是xml的根标签
+-->
+<beans xmlns="http://www.itcast.cn/bean"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.itcast.cn/bean bean-schema.xsd">
+
+    <bean id="002" className="jenny">
+        <property value="22"></property>
+    </bean>
+
+    <import resource="official"></import>
+</beans>

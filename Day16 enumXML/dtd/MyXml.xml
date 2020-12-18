@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    根据提供的bean.dtd编写自己的xml
+    用dtd，控制自己的xml
+-->
+<!DOCTYPE beans SYSTEM "bean.dtd">
+<beans>
+    <bean id="01" className="lisa">
+        <property name="couple" value="1"></property>
+    </bean>
+    <import resource="blackpink">
+        this is awesome
+    </import>
+</beans>

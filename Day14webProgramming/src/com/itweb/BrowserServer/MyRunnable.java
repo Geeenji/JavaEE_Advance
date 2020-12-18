@@ -38,12 +38,13 @@ public class MyRunnable implements Runnable{
             os.write(bytes,0,len);
         }
 
-        os.write("网站正在开发--this is a IdeaWebSite which can not run on chrome".getBytes("gbk"));
-        System.out.println("=====");
+//        os.write("网站正在开发--this is a IdeaWebSite which can not run on chrome".getBytes("gbk"));
+//        System.out.println("=====");
 
         os.close();
         fis.close();
-        socket.close();}catch (Exception exception){
+        socket.close();
+        }catch (Exception exception){
             exception.printStackTrace();
         }
     }
