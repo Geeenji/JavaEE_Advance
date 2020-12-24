@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person className="wtf">
+        <property name="lisa">lisa</property>
+        <property name="rom"> rom</property>
+    </person>
+</persons>
